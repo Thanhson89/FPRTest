@@ -1,0 +1,391 @@
+Problem: exp00
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 9.039136e-07 (suboptimality = 0.4%)
+
+Bounds (without rounding): [0.000000e+00, 7.793885e+00]
+Bounds (floating-point): [-9.07821068056494339922e-07, 7.79388578821455979551e+00]
+
+Absolute error (exact): 9.078211e-07
+
+Elapsed time: 1.81
+
+-------------------------------------------------------------------------------
+Problem: exp01
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.987138e-06 (suboptimality = 0.8%)
+
+Bounds (without rounding): [0.000000e+00, 1.333181e+01]
+Bounds (floating-point): [-2.00252170642177800014e-06, 1.33318128696309337045e+01]
+
+Absolute error (exact): 2.002522e-06
+
+Elapsed time: 1.80
+
+-------------------------------------------------------------------------------
+Problem: exp02
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 3.155975e-06 (suboptimality = 0.2%)
+
+Bounds (without rounding): [0.000000e+00, 2.394338e+01]
+Bounds (floating-point): [-3.16255904742968816908e-06, 2.39433791637420725351e+01]
+
+Absolute error (exact): 3.162559e-06
+
+Elapsed time: 1.82
+
+-------------------------------------------------------------------------------
+Problem: exp03
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.078829e-06 (suboptimality = 0.6%)
+
+Bounds (without rounding): [0.000000e+00, 1.518924e+01]
+Bounds (floating-point): [-2.09205193629843806070e-06, 1.51892439244755816929e+01]
+
+Absolute error (exact): 2.092052e-06
+
+Elapsed time: 1.80
+
+-------------------------------------------------------------------------------
+Problem: exp04
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.807702e-06 (suboptimality = 0.9%)
+
+Bounds (without rounding): [0.000000e+00, 2.108914e+01]
+Bounds (floating-point): [-2.83219144707031322348e-06, 2.10891423995888338538e+01]
+
+Absolute error (exact): 2.832191e-06
+
+Elapsed time: 1.79
+
+-------------------------------------------------------------------------------
+Problem: exp05
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.692269e-06 (suboptimality = 0.9%)
+
+Bounds (without rounding): [0.000000e+00, 1.853137e+01]
+Bounds (floating-point): [-2.71657886767421923060e-06, 1.85313757658004796269e+01]
+
+Absolute error (exact): 2.716579e-06
+
+Elapsed time: 1.81
+
+-------------------------------------------------------------------------------
+Problem: exp06
+
+
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.529513e-06 (suboptimality = 0.5%)
+
+Bounds (without rounding): [0.000000e+00, 1.906968e+01]
+Bounds (floating-point): [-2.54324550427246165601e-06, 1.90696846671332842504e+01]
+
+Absolute error (exact): 2.543246e-06
+
+Elapsed time: 1.80
+
+-------------------------------------------------------------------------------
+Problem: exp07
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.148767e-06 (suboptimality = 0.2%)
+
+Bounds (without rounding): [0.000000e+00, 1.007237e+01]
+Bounds (floating-point): [-1.15158320582382834575e-06, 1.00723742913881366690e+01]
+
+Absolute error (exact): 1.151583e-06
+
+Elapsed time: 1.80
+
+-------------------------------------------------------------------------------
+Problem: exp08
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.293261e-06 (suboptimality = 0.2%)
+
+Bounds (without rounding): [0.000000e+00, 1.613700e+01]
+Bounds (floating-point): [-2.29688388666064522553e-06, 1.61369997309964254839e+01]
+
+Absolute error (exact): 2.296884e-06
+
+Elapsed time: 1.81
+
+-------------------------------------------------------------------------------
+Problem: exp09
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.487068e-06 (suboptimality = 0.9%)
+
+Bounds (without rounding): [0.000000e+00, 1.911026e+01]
+Bounds (floating-point): [-2.50878883838359451462e-06, 1.91102599013438521069e+01]
+
+Absolute error (exact): 2.508789e-06
+
+Elapsed time: 1.88
+
+-------------------------------------------------------------------------------
+Problem: exp10
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 4.291564e-13 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 1.069545e-01]
+Bounds (floating-point): [-2.46168210276552948431e-06, 1.06956959137626220202e-01]
+
+Absolute error (exact): 2.461682e-06
+
+Elapsed time: 94.24
+
+-------------------------------------------------------------------------------
+Problem: exp11
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 5.196986e-13 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 2.581013e-01]
+Bounds (floating-point): [-1.20224849547652382949e-05, 2.58113299388963324255e-01]
+
+Absolute error (exact): 1.202248e-05
+
+Elapsed time: 130.25
+
+-------------------------------------------------------------------------------
+Problem: exp12
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.663541e-05 (suboptimality = 9.1%)
+
+Bounds (without rounding): [0.000000e+00, 5.383489e+01]
+Bounds (floating-point): [-2.92991797545612167424e-05, 5.38349196454074885310e+01]
+
+Absolute error (exact): 2.929918e-05
+
+Elapsed time: 7.87
+
+-------------------------------------------------------------------------------
+Problem: exp13
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 4.148286e-05 (suboptimality = 0.9%)
+
+Bounds (without rounding): [0.000000e+00, 1.581650e+02]
+Bounds (floating-point): [-4.18630266407649136899e-05, 1.58165070356644150706e+02]
+
+Absolute error (exact): 4.186303e-05
+
+Elapsed time: 4.48
+
+-------------------------------------------------------------------------------
+Problem: exp14
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 8.728154e-13 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 2.229109e+00]
+Bounds (floating-point): [-1.69663143497276308874e-05, 2.22912574663873819247e+00]
+
+Absolute error (exact): 1.696631e-05
+
+Elapsed time: 492.65
+
+-------------------------------------------------------------------------------
+Problem: exp15
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 3.142700e-05 (suboptimality = 14.0%)
+
+Bounds (without rounding): [0.000000e+00, 8.689140e+01]
+Bounds (floating-point): [-3.65394327873096082943e-05, 8.68914397120223611637e+01]
+
+Absolute error (exact): 3.653943e-05
+
+Elapsed time: 9.94
+
+-------------------------------------------------------------------------------
+Problem: exp16
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 5.046657e-05 (suboptimality = 0.7%)
+
+Bounds (without rounding): [0.000000e+00, 2.361733e+02]
+Bounds (floating-point): [-5.08185179910989820256e-05, 2.36173385987711753842e+02]
+
+Absolute error (exact): 5.081852e-05
+
+Elapsed time: 4.40
+
+-------------------------------------------------------------------------------
+Problem: exp17
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 3.073188e-13 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 3.280656e-01]
+Bounds (floating-point): [-4.14704087832079902289e-06, 3.28069704401061090770e-01]
+
+Absolute error (exact): 4.147041e-06
+
+Elapsed time: 271.95
+
+-------------------------------------------------------------------------------
+Problem: exp18
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.266676e-12 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 5.174897e-02]
+Bounds (floating-point): [-2.02465071190710255405e-05, 5.17692167492870350398e-02]
+
+Absolute error (exact): 2.024651e-05
+
+Elapsed time: 129.40
+
+-------------------------------------------------------------------------------
+Problem: exp19
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 2.003640e-12 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 7.721151e-01]
+Bounds (floating-point): [-1.90361893498008825324e-05, 7.72134097697707244556e-01]
+
+Absolute error (exact): 1.903619e-05
+
+Elapsed time: 185.50
+
+-------------------------------------------------------------------------------
+Problem: exp20
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 9.165748e-12 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 4.087353e-01]
+
+
+Absolute error (exact): 1.192572e-05
+
+Elapsed time: 1102.70
+
+-------------------------------------------------------------------------------
+Problem: exp21
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.781539e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 4.943014e+00]
+Bounds (floating-point): [-2.30294616877282410945e-04, 4.94324449651928432559e+00]
+
+Absolute error (exact): 2.302946e-04
+
+Elapsed time: 1471.68
+
+-------------------------------------------------------------------------------
+Problem: exp22
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 3.974991e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 3.711858e+01]
+Bounds (floating-point): [-4.67908641483989306675e-04, 3.71190430330295839667e+01]
+
+Absolute error (exact): 4.679086e-04
+
+Elapsed time: 5101.42
+
+-------------------------------------------------------------------------------
+Problem: exp23
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.634019e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 6.866916e+00]
+Bounds (floating-point): [-1.03284221090863237132e-04, 6.86701907658880195129e+00]
+
+Absolute error (exact): 1.032842e-04
+
+Elapsed time: 2233.29
+
+-------------------------------------------------------------------------------
+Problem: exp24
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 3.127546e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 1.576639e+01]
+Bounds (floating-point): [-2.23646985293759077143e-04, 1.57666178893454098642e+01]
+
+Absolute error (exact): 2.236470e-04
+
+Elapsed time: 5751.77
+
+-------------------------------------------------------------------------------
+Problem: exp25
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 4.279189e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 0.000000e+00]
+Bounds (floating-point): [-4.62203777166476199260e-04, 4.62203777166476199260e-04]
+
+Absolute error (exact): 4.622038e-04
+
+Elapsed time: 2623.13
+
+-------------------------------------------------------------------------------
+Problem: exp26
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 7.258393e-04 (suboptimality = 5.4%)
+
+Bounds (without rounding): [0.000000e+00, 1.980172e+03]
+Bounds (floating-point): [-7.67354980823913880583e-04, 1.98017253294270358310e+03]
+
+Absolute error (exact): 7.673550e-04
+
+Elapsed time: 104.02
+
+-------------------------------------------------------------------------------
+Problem: exp27
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.187689e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 1.484426e-01]
+Bounds (floating-point): [-6.40464466898521837725e-05, 1.48506596559469405960e-01]
+
+Absolute error (exact): 6.404645e-05
+
+Elapsed time: 3283.21
+
+-------------------------------------------------------------------------------
+Problem: exp28
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 5.185837e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 4.298129e-01]
+Bounds (floating-point): [-1.79233564125307824177e-04, 4.29992122218928074506e-01]
+
+Absolute error (exact): 1.792336e-04
+
+Elapsed time: 1470.43
+
+-------------------------------------------------------------------------------
+Problem: exp29
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 8.768210e-11 (suboptimality = 100.0%)
+
+Bounds (without rounding): [0.000000e+00, 7.016977e+00]
+Bounds (floating-point): [-2.20958230860285770617e-04, 7.01719802598104624991e+00]
+
+Absolute error (exact): 2.209582e-04
+
+Elapsed time: 2159.32
+

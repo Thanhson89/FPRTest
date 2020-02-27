@@ -1,0 +1,339 @@
+Base path: /home/thanh/fpt
+Config file: /home/thanh/fpt/default.cfg
+default-rnd = rnd64
+nlopt-cc = gcc -std=c99 -O3
+opt-exact = true
+develop = false
+log-append-date = start
+uncertainty = false
+rel-error = false
+opt-approx = false
+proof-record = false
+find-bounds = true
+proof-dir = proofs
+opt-f-abs-tol = 0.01
+fail-on-exception = true
+print-opt-lower-bounds = true
+bb-compile = {base}/b_and_b/compile.sh {base} {input} {out}
+z3-python-lib = 
+opt-x-abs-tol = 0.01
+export-error-bounds = 
+opt-f-rel-tol = 0.01
+opt-x-rel-tol = 0.0
+rel-error-threshold = 0.0001
+bb-alg = opt0
+log-base-dir = log
+intermediate-opt = false
+z3-interval-bounds = true
+opt-max-iters = 1000000
+abs-error = true
+z3-bin = 
+maxima-simplification = false
+debug = true
+export-error-bounds-data = 
+fp-power2-model = true
+opt = bb
+default-var-type = float64
+verbosity = 2
+ulp-error = false
+opt-timeout = 10000
+nlopt-lib = -lnlopt -lm
+tmp-base-dir = tmp
+unique-indices = false
+z3-seed = 0
+tmp-date = false
+z3-python-cmd = python
+const-approx-real-vars = false
+eval_const_expr: (-(1))
+result: -1
+eval_const_expr: 1
+result: 1
+eval_const_expr: 0
+result: 0
+eval_const_expr: 1
+result: 1
+eval_const_expr: (-(1))
+result: -1
+eval_const_expr: (-((1888605985441183/1250000000000000)))
+result: -1888605985441183/1250000000000000
+eval_const_expr: (12069689472541931/10000000000000000)
+result: 12069689472541931/10000000000000000
+eval_const_expr: (46534513023113/6250000000000)
+result: 46534513023113/6250000000000
+eval_const_expr: (1599532108608873/2000000000000000)
+result: 1599532108608873/2000000000000000
+|tasks| = 4
+Processing: exp0
+
+*************************************
+Taylor form for: rnd32((rnd32((-1888605985441183/1250000000000000)) * rnd32(x0)))
+
+Conservative bound: [-1.510885, 1.510885]
+
+Simplified rounding: rnd32((rnd32((-1888605985441183/1250000000000000)) * rnd32(x0)))
+Building Taylor forms...
+const_rnd_form
+precise_const_rnd_form
+Inexact constant: (-1888605985441183/1250000000000000); err = (-67949167784/152587890625)
+var_rnd_form
+mul_form
+rounded_form
+Simplifying Taylor forms...
+success
+v0 = ((-1888605985441183/1250000000000000) * x0)
+-1 (6): exp = -24: (8022021812051189/604462909807314587353088)
+1 (1): exp = -24: (x0 * (-67949167784/152587890625))
+2 (2): exp = -24: ((-1888605985441183/1250000000000000) * floor_power2(x0))
+3 (4): exp = -24: floor_power2((((-1888605985441183/1250000000000000) * x0) + interval(-7.15705200098167465419e-08, 7.15705200098167465419e-08)))
+
+Corresponding original subexpressions:
+1: rnd32(0)
+2: rnd32(x0)
+3: rnd32((rnd32((-1888605985441183/1250000000000000)) * rnd32(x0)))
+
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = -1.510885e+00 (lower_min = -1.510885e+00)
+max = 1.510885e+00 (lower_max = 1.510885e+00)
+subopt = 2.220446e-16 (0.0%)
+bounds: [-1.510885e+00, 1.510885e+00]
+
+Computing absolute errors
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 1.327132e-08 (lower_min = 1.327132e-08)
+max = 1.327132e-08 (lower_max = 1.327132e-08)
+subopt = 0.000000e+00 (0.0%)
+rmin(result = 1.327132e-08, lower = 1.327132e-08), rmax(result = 1.327132e-08, lower = 1.327132e-08)
+-1: exp = -24: 1.327132e-08 (low = 1.327132e-08, subopt = 0.0%)
+
+Solving the exact optimization problem
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 0.000000e+00 (lower_min = 0.000000e+00)
+max = 2.200754e+00 (lower_max = 2.200754e+00)
+subopt = 4.440892e-16 (0.0%)
+exact bound (exp = -24): 2.200754e+00 (low = 2.200754e+00, subopt = 0.0%)
+total2: 7.910324e-16 (low = 7.910324e-16, subopt = 0.0%)
+exact total: 1.311752e-07 (low = 1.311752e-07, subopt = 0.0%)
+
+Elapsed time: 2.07511
+Processing: exp1
+
+*************************************
+Taylor form for: rnd32((rnd32((12069689472541931/10000000000000000)) * rnd32(x0)))
+
+Conservative bound: [-1.206969, 1.206969]
+
+Simplified rounding: rnd32((rnd32((12069689472541931/10000000000000000)) * rnd32(x0)))
+Building Taylor forms...
+const_rnd_form
+precise_const_rnd_form
+Inexact constant: (12069689472541931/10000000000000000); err = (111904328086/152587890625)
+var_rnd_form
+mul_form
+rounded_form
+Simplifying Taylor forms...
+success
+v0 = ((12069689472541931/10000000000000000) * x0)
+-1 (6): exp = -24: (6605665603017185/302231454903657293676544)
+1 (1): exp = -24: (x0 * (111904328086/152587890625))
+2 (2): exp = -24: ((12069689472541931/10000000000000000) * floor_power2(x0))
+3 (4): exp = -24: floor_power2((((12069689472541931/10000000000000000) * x0) + interval(-7.96831071393382736753e-08, 7.96831071393382736753e-08)))
+
+Corresponding original subexpressions:
+1: rnd32(0)
+2: rnd32(x0)
+3: rnd32((rnd32((12069689472541931/10000000000000000)) * rnd32(x0)))
+
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = -1.206969e+00 (lower_min = -1.206969e+00)
+max = 1.206969e+00 (lower_max = 1.206969e+00)
+subopt = 2.220446e-16 (0.0%)
+bounds: [-1.206969e+00, 1.206969e+00]
+
+Computing absolute errors
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 2.185631e-08 (lower_min = 2.185631e-08)
+max = 2.185631e-08 (lower_max = 2.185631e-08)
+subopt = 0.000000e+00 (0.0%)
+rmin(result = 2.185631e-08, lower = 2.185631e-08), rmax(result = 2.185631e-08, lower = 2.185631e-08)
+-1: exp = -24: 2.185631e-08 (low = 2.185631e-08, subopt = 0.0%)
+
+Solving the exact optimization problem
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 0.000000e+00 (lower_min = 0.000000e+00)
+max = 2.336861e+00 (lower_max = 2.336861e+00)
+subopt = 4.440892e-16 (0.0%)
+exact bound (exp = -24): 2.336861e+00 (low = 2.336861e+00, subopt = 0.0%)
+total2: 1.302738e-15 (low = 1.302738e-15, subopt = 0.0%)
+exact total: 1.392878e-07 (low = 1.392878e-07, subopt = 0.0%)
+
+Elapsed time: 1.96241
+Processing: exp2
+
+*************************************
+Taylor form for: rnd32((rnd32((46534513023113/6250000000000)) * rnd32(x0)))
+
+Conservative bound: [-7.445523, 7.445523]
+
+Simplified rounding: rnd32((rnd32((46534513023113/6250000000000)) * rnd32(x0)))
+Building Taylor forms...
+const_rnd_form
+precise_const_rnd_form
+Inexact constant: (46534513023113/6250000000000); err = (-23004316608/6103515625)
+var_rnd_form
+mul_form
+rounded_form
+Simplifying Taylor forms...
+success
+v0 = ((46534513023113/6250000000000) * x0)
+-1 (6): exp = -24: (4243547410583623/37778931862957161709568)
+1 (1): exp = -24: (x0 * (-23004316608/6103515625))
+2 (2): exp = -24: ((46534513023113/6250000000000) * floor_power2(x0))
+3 (4): exp = -24: floor_power2((((46534513023113/6250000000000) * x0) + interval(-4.46545385553212490541e-07, 4.46545385553212490541e-07)))
+
+Corresponding original subexpressions:
+1: rnd32(0)
+2: rnd32(x0)
+3: rnd32((rnd32((46534513023113/6250000000000)) * rnd32(x0)))
+
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = -7.445522e+00 (lower_min = -7.445522e+00)
+max = 7.445522e+00 (lower_max = 7.445522e+00)
+subopt = 8.881784e-16 (0.0%)
+bounds: [-7.445522e+00, 7.445522e+00]
+
+Computing absolute errors
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 1.123258e-07 (lower_min = 1.123258e-07)
+max = 1.123258e-07 (lower_max = 1.123258e-07)
+subopt = 0.000000e+00 (0.0%)
+rmin(result = 1.123258e-07, lower = 1.123258e-07), rmax(result = 1.123258e-07, lower = 1.123258e-07)
+-1: exp = -24: 1.123258e-07 (low = 1.123258e-07, subopt = 0.0%)
+
+Solving the exact optimization problem
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 0.000000e+00 (lower_min = 0.000000e+00)
+max = 1.149179e+01 (lower_max = 1.149179e+01)
+subopt = 1.776357e-15 (0.0%)
+exact bound (exp = -24): 1.149179e+01 (low = 1.149179e+01, subopt = 0.0%)
+total2: 6.695137e-15 (low = 6.695137e-15, subopt = 0.0%)
+exact total: 6.849640e-07 (low = 6.849640e-07, subopt = 0.0%)
+
+Elapsed time: 1.91206
+Processing: exp3
+
+*************************************
+Taylor form for: rnd32((rnd32((1599532108608873/2000000000000000)) * rnd32(x0)))
+
+Conservative bound: [-0.799766, 0.799766]
+
+Simplified rounding: rnd32((rnd32((1599532108608873/2000000000000000)) * rnd32(x0)))
+Building Taylor forms...
+const_rnd_form
+precise_const_rnd_form
+Inexact constant: (1599532108608873/2000000000000000); err = (-4805503512/30517578125)
+var_rnd_form
+mul_form
+rounded_form
+Simplifying Taylor forms...
+success
+v0 = ((1599532108608873/2000000000000000) * x0)
+-1 (6): exp = -24: (5673337179595293/1208925819614629174706176)
+1 (1): exp = -24: (x0 * (-4805503512/30517578125))
+2 (2): exp = -24: ((1599532108608873/2000000000000000) * floor_power2(x0))
+3 (4): exp = -24: floor_power2((((1599532108608873/2000000000000000) * x0) + interval(-3.32206351117079785506e-08, 3.32206351117079785506e-08)))
+
+Corresponding original subexpressions:
+1: rnd32(0)
+2: rnd32(x0)
+3: rnd32((rnd32((1599532108608873/2000000000000000)) * rnd32(x0)))
+
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = -7.997661e-01 (lower_min = -7.997661e-01)
+max = 7.997661e-01 (lower_max = 7.997661e-01)
+subopt = 1.110223e-16 (0.0%)
+bounds: [-7.997661e-01, 7.997661e-01]
+
+Computing absolute errors
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 4.692875e-09 (lower_min = 4.692875e-09)
+max = 4.692875e-09 (lower_max = 4.692875e-09)
+subopt = 0.000000e+00 (0.0%)
+rmin(result = 4.692875e-09, lower = 4.692875e-09), rmax(result = 4.692875e-09, lower = 4.692875e-09)
+-1: exp = -24: 4.692875e-09 (low = 4.692875e-09, subopt = 0.0%)
+
+Solving the exact optimization problem
+bb_opt: x_abs_tol = 1.000000e-02, f_rel_tol = 1.000000e-02, f_abs_tol = 1.000000e-02, iters = 1000000
+iterations(min = 0, max = 0): 0
+min = 0.000000e+00 (lower_min = 0.000000e+00)
+max = 1.057350e+00 (lower_max = 1.057350e+00)
+subopt = 2.220446e-16 (0.0%)
+exact bound (exp = -24): 1.057350e+00 (low = 1.057350e+00, subopt = 0.0%)
+total2: 2.797171e-16 (low = 2.797171e-16, subopt = 0.0%)
+exact total: 6.302296e-08 (low = 6.302296e-08, subopt = 0.0%)
+
+Elapsed time: 1.93880
+*************************************
+
+-------------------------------------------------------------------------------
+Problem: exp0
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.311752e-07 (suboptimality = 0.0%)
+
+Bounds (without rounding): [-1.510885e+00, 1.510885e+00]
+Bounds (floating-point): [-1.51088491952811154739e+00, 1.51088491952811154739e+00]
+
+Absolute error (exact): 1.311752e-07
+
+Elapsed time: 2.08
+
+-------------------------------------------------------------------------------
+Problem: exp1
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 1.392878e-07 (suboptimality = 0.0%)
+
+Bounds (without rounding): [-1.206969e+00, 1.206969e+00]
+Bounds (floating-point): [-1.20696908654194512422e+00, 1.20696908654194512422e+00]
+
+Absolute error (exact): 1.392878e-07
+
+Elapsed time: 1.96
+
+-------------------------------------------------------------------------------
+Problem: exp2
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 6.849640e-07 (suboptimality = 0.0%)
+
+Bounds (without rounding): [-7.445522e+00, 7.445522e+00]
+Bounds (floating-point): [-7.44552276866204554295e+00, 7.44552276866204554295e+00]
+
+Absolute error (exact): 6.849640e-07
+
+Elapsed time: 1.91
+
+-------------------------------------------------------------------------------
+Problem: exp3
+
+Optimization lower bounds for error models:
+The absolute error model (exact): 6.302296e-08 (suboptimality = 0.0%)
+
+Bounds (without rounding): [-7.997661e-01, 7.997661e-01]
+Bounds (floating-point): [-7.99766117327394110426e-01, 7.99766117327394110426e-01]
+
+Absolute error (exact): 6.302296e-08
+
+Elapsed time: 1.94
+
