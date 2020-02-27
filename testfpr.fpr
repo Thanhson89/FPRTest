@@ -6,5 +6,5 @@ Float: a[double] = [-100.0;100.0], b[double] = [-100.0;100.0], c[double] = [-100
 Real: ra[real] = [-100.0;100.0], rb[real] = [-100.0;100.0], rc[real] = [-100;100], rr[real]
 
 rb = 1.1368683772161603e-13
-rb>abs(a-ra)
+3.0>abs(a-ra)
 rb<abs(b-ra)
