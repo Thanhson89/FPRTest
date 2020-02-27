@@ -8,10 +8,8 @@ Real: ra[real] = [-100.0;100.0], rb[real] = [-100.0;100.0], rc[real] = [-100;100
 ct1=4.0
 ct2=5.0
 e = 1.1368683772161603e-13
-u = e * ct2
+u = 9.1368683772161603e-13
 r = a *FP ct1 
 rr = ra*ct1
-e>abs(b-rb)
 e>abs(a-ra)
-e>abs(c-rc)
 u<abs(r-rr)
