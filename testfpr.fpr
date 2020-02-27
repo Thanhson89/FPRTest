@@ -15,8 +15,8 @@ c < 100.0
 c > 10.0
 e = 1.1368683772161603e-13
 u = 1.1368683772161603e-5
-r = a *FP a -FP b *FP c *FP ct1 
-rr = ra*ra -rb*rc*ct1
+r = a *FP a -FP b *FP c 
+rr = ra*ra-rb*rc
 e>abs(a-ra)
 e>abs(b-rb)
 e>abs(b-rc)
