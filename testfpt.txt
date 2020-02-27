@@ -1,0 +1,7 @@
+Variables
+real a in [-100,100],
+real b in [-100,100],
+real c in [-100,100];
+
+Expressions
+exp00 rnd32 = a*a-4*b*c;
