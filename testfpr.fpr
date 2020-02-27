@@ -6,7 +6,7 @@ Float: a[double] = [-100.0;100.0], b[double] = [-100.0;100.0], c[double] = [-100
 Real: ra[real] = [-100.0;100.0], rb[real] = [-100.0;100.0], rc[real] = [-100;100], rr[real]
 
 ra<10
-b=0.0
+rb=0.0
 ra>0
-a=ra+FP1
+a=ra+FPrb
 a-ra>1
