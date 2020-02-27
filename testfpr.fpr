@@ -6,8 +6,8 @@ Float: a[double] = [-100.0;100.0], b[double] = [-100.0;100.0], c[double] = [-100
 Real: ra[real] = [-100.0;100.0], rb[real] = [-100.0;100.0], rc[real] = [-100;100], rr[real], c1[real], c2[real], c3[real]
 
 c1 = 1.0
-c2 = 3.0
-c3 = 2.0
+c2 = 2.0
+c3 = 3.0
 b = a *FP c2 
 rb = ra * c2
 c1>abs(a-ra)
