@@ -5,4 +5,4 @@
 Float: a[double] = [-100.0;100.0], b[double] = [-100.0;100.0], c[double] = [-100.0;100.0], r[double]
 Real: ra[real] = [-100.0;100.0], rb[real] = [-100.0;100.0], rc[real] = [-100;100], rr[real]
 
-a=b+c
+a=b+FPc
