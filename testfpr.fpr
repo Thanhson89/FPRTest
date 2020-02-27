@@ -8,5 +8,5 @@ Real: ra[real] = [-100.0;100.0], rb[real] = [-100.0;100.0], rc[real] = [-100;100
 ra<10
 rb=0.0
 ra>0
-a=ra+FPrb
+a=ra +FP rb
 a-ra>1
